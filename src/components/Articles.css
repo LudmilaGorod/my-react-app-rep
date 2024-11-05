@@ -1,0 +1,50 @@
+/* src/components/Articles.css */
+.articles {
+  padding: 20px;
+}
+
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.article-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.article-item img {
+  width: 100%;
+  height: auto;
+}
+
+.article-item h3 {
+  cursor: pointer;
+  color: solid #255;
+  text-decoration: underline;
+}
+
+.article-full {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  padding: 20px;
+  overflow-y: auto;
+  white-space: pre-line;
+}
+
+.article-full button {
+  margin-top: 20px;
+}
+
+.article-full {
+  max-width: 1950px;
+  max-height: 1500px; /* Устанавливаем высоту для контейнера */
+  overflow-y: auto; /* Добавляем вертикальную прокрутку */
+}

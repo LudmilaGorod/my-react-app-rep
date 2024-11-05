@@ -1,0 +1,66 @@
+.cases {
+    padding: 0px;
+  }
+
+  .case-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .case-links li {
+    cursor: pointer;
+    color: #0073e6;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .case-links li:hover {
+    text-decoration: underline;
+  }
+  
+  .case-details {
+    margin-top: 20px;
+  }
+  
+  .case-image {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  
+  .case-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .case-title {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .case-image {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .hide-button {
+    background-color: #599050 !important; /* Задайте цвет фона, например, зеленый */
+    color: white; /* Цвет текста */
+    padding: 10px 20px; /* Внутренние отступы для увеличения размера кнопки */
+    border: none; /* Уберите рамку */
+    cursor: pointer; /* Курсор-указатель при наведении */
+    border-radius: 5px; /* Добавьте скругление углов при необходимости */
+  }
+
+  .case-details .disqus-container {
+    min-height: 300px;
+}
+
+  

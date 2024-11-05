@@ -1,0 +1,41 @@
+.chat-widget-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .chat-icon {
+    font-size: 60px;
+    cursor: pointer;
+  }
+  
+  .chat-window {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #ccc;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-header {
+    background-color: #edeaf1;
+    padding: 10px;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  input {
+    border: none;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  
